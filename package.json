@@ -1,0 +1,25 @@
+{
+  "name": "graphql-cli-plugin-validate-schema",
+  "version": "1.0.0",
+  "description": "GraphQL schema validation plugin for graphql-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edsrzf/graphql-cli-plugin-validate-schema"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Evan Shaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edsrzf/graphql-cli-plugin-validate-schema/issues"
+  },
+  "homepage": "https://github.com/edsrzf/graphql-cli-plugin-validate-schema#readme",
+  "dependencies": {
+    "graphql-cli": "^2.10.1"
+  }
+}
