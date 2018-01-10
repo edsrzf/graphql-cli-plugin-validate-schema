@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/edsrzf/graphql-cli-plugin-validate-schema#readme",
   "dependencies": {
+    "chalk": "^2.3.0",
+    "graphql": "^0.12.3",
     "graphql-cli": "^2.10.1"
   }
 }
