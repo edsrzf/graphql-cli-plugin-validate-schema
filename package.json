@@ -1,6 +1,6 @@
 {
   "name": "graphql-cli-plugin-validate-schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GraphQL schema validation plugin for graphql-cli",
   "main": "index.js",
   "scripts": {
