@@ -1,9 +1,9 @@
 exports.command = 'validate-schema'
 exports.desc = 'Validate GraphQL schema'
 
-import { buildSchema } from 'graphql'
+const graphql = require('graphql')
 
 exports.handler = async (context, argv) => {
   const config = await context.getProjectConfig()
-  buildSchema(config.getSchemaSDL())
+  graphql.buildSchema(config.getSchemaSDL())
 }
