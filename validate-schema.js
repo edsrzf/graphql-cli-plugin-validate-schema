@@ -9,8 +9,6 @@ exports.handler = async (context, argv) => {
   try {
     graphql.buildSchema(config.getSchemaSDL())
   } catch (error) {
-    for (loc of error.locations) {
-      console.log(chalk.red(`(${loc.line}, ${loc.column}): ${error.message}`))
-    }
+    console.log(chalk.red(error.toString()))
   }
 }
